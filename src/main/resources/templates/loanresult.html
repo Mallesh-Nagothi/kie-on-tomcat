@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Loan Application Status</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+		table, th, td {
+  			border: 1px solid black;
+		}
+		body {
+			font-family: verdana;
+		}		
+	</style>
+</head>
+<body>
+	<font face="verdana" size="+2" color="blue"><b>Kie-Drools - Application Status</b></font>
+	<br><hr>
+	<br>
+	<table>
+			<tr>
+				<td colspan="2">
+					<font face="verdana" size="+2" color="blue">
+					KIE-Rules Execution Results:
+					</font>
+				</td>
+				<td colspan="2"><b><p th:text="'' + ${person.status}" /></b></td>
+			<tr>
+				<td>Name</td><td>Age</td><td>Gender</td><td>Loan Status</b></td>
+			</tr>
+			<tr>
+				
+				<td><p th:text="'' + ${person.name}" /></td>
+				<td><p th:text="'' + ${person.age}" /></td>
+				<td><p th:text="'' + ${person.gender}" /></td>
+				<td><b><p th:text="'' + ${person.status}" /></b></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><input type="submit" value="Submit" /> </td>
+				<td><input type="reset"  value="Reset" /></td>
+				<td>&nbsp;</td>
+				
+			</tr>
+		</table>
+</body>
+</html>

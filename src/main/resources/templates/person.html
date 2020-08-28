@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Loan Application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+		body {
+			font-family: verdana;
+		}		
+	</style>
+</head>
+<body>
+	<font face="verdana" size="+2" color="blue">Kie-Drools - Loan Application Rules (PoC)</font>
+	<br><hr>
+	<br>
+    <form action="#" th:action="@{/person}" th:object="${person}" method="post">
+        <p>
+        	<table>
+			<tr><td colspan="3"><font face="verdana" color="blue">Fill Person Details</font></td></tr>
+			<tr></p>
+				<td>Name</td><td>Age</td><td>Gender</td>
+			</tr>
+			<tr>
+				<td><input type="text" th:field="*{name}" /></td>
+				<td><input type="text" th:field="*{age}" /></td>
+				<td><input type="text" th:field="*{gender}" /></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>Target Container</td>
+				<td>Rule Name</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td><input type="text" th:field="*{containerId}" /></td>
+				<td><input type="text" th:field="*{processName}" /></td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Submit" /> </td>
+				<td><input type="reset" value="Reset" /></td>
+			</tr>
+		</table>
+        	
+        </p>
+        
+    </form>
+</body>
+</html>
