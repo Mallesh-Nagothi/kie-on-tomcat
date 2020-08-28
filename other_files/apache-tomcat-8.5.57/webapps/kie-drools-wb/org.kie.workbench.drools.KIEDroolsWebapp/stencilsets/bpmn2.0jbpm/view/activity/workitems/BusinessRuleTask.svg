@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:oryx="http://www.b3mn.org/oryx"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+
+   width="102"
+   height="82"
+   version="1.0">
+  <defs></defs>
+  <oryx:magnets>
+  	<oryx:magnet oryx:cx="1" oryx:cy="20" oryx:anchors="left" />
+  	<oryx:magnet oryx:cx="1" oryx:cy="40" oryx:anchors="left" />
+  	<oryx:magnet oryx:cx="1" oryx:cy="60" oryx:anchors="left" />
+
+  	<oryx:magnet oryx:cx="25" oryx:cy="79" oryx:anchors="bottom" />
+  	<oryx:magnet oryx:cx="50" oryx:cy="79" oryx:anchors="bottom" />
+  	<oryx:magnet oryx:cx="75" oryx:cy="79" oryx:anchors="bottom" />
+
+  	<oryx:magnet oryx:cx="99" oryx:cy="20" oryx:anchors="right" />
+  	<oryx:magnet oryx:cx="99" oryx:cy="40" oryx:anchors="right" />
+  	<oryx:magnet oryx:cx="99" oryx:cy="60" oryx:anchors="right" />
+
+  	<oryx:magnet oryx:cx="25" oryx:cy="1" oryx:anchors="top" />
+  	<oryx:magnet oryx:cx="50" oryx:cy="1" oryx:anchors="top" />
+  	<oryx:magnet oryx:cx="75" oryx:cy="1" oryx:anchors="top" />
+
+  	<oryx:magnet oryx:cx="50" oryx:cy="40" oryx:default="yes" />
+  </oryx:magnets>
+  <g pointer-events="fill" oryx:minimumSize="50 40">
+  	<defs>
+		<radialGradient id="background" cx="10%" cy="10%" r="100%" fx="10%" fy="10%">
+			<stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+			<stop id="fill_el" offset="100%" stop-color="#ffffcc" stop-opacity="1"/>
+		</radialGradient>
+	</defs>
+
+	<rect id="text_frame" oryx:anchors="bottom top right left" x="1" y="1" width="94" height="79" rx="10" ry="10" stroke="none" stroke-width="0" fill="none" />
+	<rect id="bg_frame" oryx:resize="vertical horizontal" x="0" y="0" width="100" height="80" rx="10" ry="10" stroke="black" stroke-width="1" fill="url(#background) #ffffcc" />
+		<text 
+			font-size="12" 
+			id="text_name" 	
+			x="50" 
+			y="40" 
+			oryx:align="middle center"
+			oryx:fittoelem="text_frame"
+			stroke="black">
+		</text>
+    <g id="BusinessRuleTask" transform="scale(0.7,0.7) translate(8,8)">
+        <image oryx:anchors="top" x="2" y="2" width="20" height="20" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACiElEQVR42oWTXUiTURjHZ1ZKWHmTFH3RRVdddONNpsNWLkmd+tqHCjOIklZgUzZhy/UxhXSGyiqKvshAStK1uggi6CYhFnUhE2dgKK+G5cBJ7z7c2nn+nZ0ZflzMAwfel/f8f8/z/5/nVTHGiCkBYmGFWH8bscoMYi/sxBbCxOb9RPx7qqWi35NEXXUg0yGw8/uAMhWoPB2spQh06QBIHkWqpYI8SlS3QwiFWJe29FyWBnJ3pwaQu4vo3J6kyJiL4NQ4op53YKeyOIBDvrxdowPuWVSqyoQyIyMUCiGo/EG8VbfYEbfTaxGHIwsxsVcCbtcQ6daBKtaD/ZqAoigIc0C0RZsE8E6Cz6wIRhZw8EI71MYeTM3OYfynHzxebmFWJla/XxyOn92J2IMGRNsqASkD4GEqn17jCBflGjqRXnQFqqMN2Fxmxt6a65j2Bzhg7DORPifpdzG85TvSfwu7qm1CeLihCzWtT5FVasK2KiuGvD+4hb8xoo/PQQMOUK9ViFh1NmhoAPE79bjZ8wQZxY3YUmqGf24egUAAF7tfCuBWXTMHAPQ/EAoroPbTCD82w+PxgM8JpBtJQGZxE8YmpnnIYUi2h9hwvBFN912rAFzQ6XDAaDSioKAAHR0dGHS/wWXnK1Exu7wZOZJFZLGRAz589a0ExGIxaDQalJSUCEh+fj4MBgOM9wax+8w1bD95VYCOme+iwvYIo5MzS4BoNCqEeXl5GB4eFtdpt9vFe19fH/g/g973Hmw6YcK37/KyOVgExONxuFwuFBYWwul0Coher0dtbS28Xq84nLj3BGjlIC2zkKiq1WqhVqtF5QTMYrGsMcqrQvT5fHC73ZAkCSMjI5BlOSXgH5e1GrmCfrJvAAAAAElFTkSuQmCC" />
+    </g>
+  </g>
+</svg>

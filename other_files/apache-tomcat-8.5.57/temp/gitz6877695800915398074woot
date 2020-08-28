@@ -1,0 +1,9 @@
+package com.example.poc;
+
+import java.lang.Number;
+
+rule "LoanApporval"
+	dialect "mvel"
+	when
+	then
+end

@@ -1,0 +1,10 @@
+CATALINA_OPTS="-Xmx1024M \
+-Djbpm.tsr.jndi.lookup=java:comp/env/TransactionSynchronizationRegistry \
+-Dorg.kie.server.persistence.ds=java:comp/env/jdbc/jbpm \
+-Djbpm.tm.jndi.lookup=java:comp/env/TransactionManager \
+-Dorg.kie.server.persistence.tm=JBossTS \
+-Dhibernate.connection.release_mode=after_transaction \
+-Dorg.kie.server.id=tomcat-kieserver \
+-Dorg.kie.server.location=http://localhost:8383/kie-server/services/rest/server \
+-Dorg.kie.server.controller=http://localhost:8080/kie-drools-wb/rest/controller \
+-Dcom.arjuna.ats.jta.recovery.XAResourceRecovery1=com.arjuna.ats.internal.jdbc.recovery.BasicXARecovery\;abs://$CATALINA_HOME/conf/xa-recovery-properties.xml\ \;1"

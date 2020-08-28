@@ -1,0 +1,22 @@
+package com.poc;
+
+import com.poc.Application;
+
+
+rule "Approve Loans for Male Gender"
+ruleflow-group "superGroup"
+dialect "mvel"
+   when
+      app : Application(applicantAge>=21 , applicantGender == "M")
+   then
+      app.setApplicationStatus("Loan Approved");
+end
+
+rule "Dont Approve Loans for Female Gender"
+ruleflow-group "superGroup"
+dialect "mvel"
+   when
+      app : Application(applicantGender == "F")
+   then
+      app.setApplicationStatus("Sorry.. Loan Not Approved");
+end

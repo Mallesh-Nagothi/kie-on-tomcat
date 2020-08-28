@@ -1,0 +1,12 @@
+<org.kie.server.controller.api.model.spec.ServerTemplate>
+  <id>dev-kei-execution-server</id>
+  <name>dev-kei-execution-server</name>
+  <containersSpec class="list"/>
+  <configs/>
+  <serverInstances class="list"/>
+  <capabilities>
+    <string>PROCESS</string>
+    <string>RULE</string>
+    <string>PLANNING</string>
+  </capabilities>
+</org.kie.server.controller.api.model.spec.ServerTemplate>

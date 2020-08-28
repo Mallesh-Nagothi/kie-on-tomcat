@@ -1,0 +1,12 @@
+<org.kie.server.controller.api.model.spec.ServerTemplate>
+  <id>tomcat-prod-kieserver</id>
+  <name>tomcat-prod-kieserver</name>
+  <containersSpec class="list"/>
+  <configs/>
+  <serverInstances class="list"/>
+  <capabilities>
+    <string>RULE</string>
+    <string>PROCESS</string>
+    <string>PLANNING</string>
+  </capabilities>
+</org.kie.server.controller.api.model.spec.ServerTemplate>

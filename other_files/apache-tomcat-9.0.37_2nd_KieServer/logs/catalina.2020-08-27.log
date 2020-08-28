@@ -1,0 +1,536 @@
+27-Aug-2020 10:26:04.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.37
+27-Aug-2020 10:26:04.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jun 30 2020 20:09:49 UTC
+27-Aug-2020 10:26:04.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.37.0
+27-Aug-2020 10:26:04.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Aug-2020 10:26:04.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-42-generic
+27-Aug-2020 10:26:04.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Aug-2020 10:26:04.649 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/jdk/jdk1.8.0_261/jre
+27-Aug-2020 10:26:04.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_261-b12
+27-Aug-2020 10:26:04.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Aug-2020 10:26:04.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kieuser/apache-tomcat-9.0.37_2nd_KieServer
+27-Aug-2020 10:26:04.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kieuser/apache-tomcat-9.0.37_2nd_KieServer
+27-Aug-2020 10:26:04.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/conf/logging.properties
+27-Aug-2020 10:26:04.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Aug-2020 10:26:04.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Aug-2020 10:26:04.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Aug-2020 10:26:04.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+27-Aug-2020 10:26:04.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024M
+27-Aug-2020 10:26:04.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djbpm.tsr.jndi.lookup=java:comp/env/TransactionSynchronizationRegistry
+27-Aug-2020 10:26:04.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.kie.server.persistence.ds=java:comp/env/jdbc/jbpm
+27-Aug-2020 10:26:04.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djbpm.tm.jndi.lookup=java:comp/env/TransactionManager
+27-Aug-2020 10:26:04.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.kie.server.persistence.tm=JBossTS
+27-Aug-2020 10:26:04.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhibernate.connection.release_mode=after_transaction
+27-Aug-2020 10:26:04.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.kie.server.id=tomcat-kieserver
+27-Aug-2020 10:26:04.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.kie.server.location=http://localhost:8383/kie-server/services/rest/server
+27-Aug-2020 10:26:04.653 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.kie.server.controller=http://localhost:8080/kie-drools-wb/rest/controller
+27-Aug-2020 10:26:04.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.arjuna.ats.jta.recovery.XAResourceRecovery1=com.arjuna.ats.internal.jdbc.recovery.BasicXARecovery;abs:///home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/conf/xa-recovery-properties.xml ;1
+27-Aug-2020 10:26:04.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+27-Aug-2020 10:26:04.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer
+27-Aug-2020 10:26:04.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer
+27-Aug-2020 10:26:04.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/temp
+27-Aug-2020 10:26:04.655 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+27-Aug-2020 10:26:05.234 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8383"]
+27-Aug-2020 10:26:05.277 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [911] milliseconds
+27-Aug-2020 10:26:05.317 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+27-Aug-2020 10:26:05.317 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.37]
+27-Aug-2020 10:26:05.339 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/host-manager]
+27-Aug-2020 10:26:05.693 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2020 10:26:05.739 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/host-manager] has finished in [400] ms
+27-Aug-2020 10:26:05.740 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/examples]
+27-Aug-2020 10:26:06.081 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2020 10:26:06.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/examples] has finished in [361] ms
+27-Aug-2020 10:26:06.101 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/manager]
+27-Aug-2020 10:26:06.146 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2020 10:26:06.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/manager] has finished in [48] ms
+27-Aug-2020 10:26:06.149 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/ROOT]
+27-Aug-2020 10:26:06.183 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2020 10:26:06.186 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/ROOT] has finished in [36] ms
+27-Aug-2020 10:26:06.186 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/docs]
+27-Aug-2020 10:26:06.219 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2020 10:26:06.221 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/docs] has finished in [35] ms
+27-Aug-2020 10:26:06.222 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server]
+27-Aug-2020 10:26:12.779 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Aug-2020 10:26:13.238 INFO [main] com.arjuna.ats.arjuna.recovery.TransactionStatusManager.start ARJUNA012170: TransactionStatusManager started on port 39645 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+27-Aug-2020 10:26:13.550 INFO [main] org.kie.server.services.Bootstrap.contextInitialized KieServer (id tomcat-kieserver (name tomcat-kieserver)) started initialization process
+27-Aug-2020 10:26:13.840 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/jbpm-bpmn2-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.060 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.jbpm.bpmn2.BPMN2ProcessProviderImpl
+
+27-Aug-2020 10:26:14.062 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.jbpm.bpmn2.xml.XmlProcessDumperFactoryServiceImpl
+
+27-Aug-2020 10:26:14.062 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/drools-workbench-models-guided-template-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.067 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.drools.workbench.models.guided.template.backend.GuidedRuleTemplateProviderImpl
+
+27-Aug-2020 10:26:14.067 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/jbpm-flow-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.069 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.jbpm.marshalling.impl.ProcessMarshallerFactoryServiceImpl
+
+27-Aug-2020 10:26:14.072 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.jbpm.process.instance.ProcessRuntimeFactoryServiceImpl
+
+27-Aug-2020 10:26:14.072 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/kie-ci-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.074 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.kie.scanner.KieScannerFactoryServiceImpl
+
+27-Aug-2020 10:26:14.076 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.kie.scanner.MavenClassLoaderResolver
+
+27-Aug-2020 10:26:14.076 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/drools-workbench-models-guided-dtable-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.079 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.drools.workbench.models.guided.dtable.backend.GuidedDecisionTableProviderImpl
+
+27-Aug-2020 10:26:14.079 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/kie-internal-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.081 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.kie.internal.services.KieAssemblersImpl
+
+27-Aug-2020 10:26:14.082 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.kie.internal.services.KieRuntimesImpl
+
+27-Aug-2020 10:26:14.083 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.kie.internal.services.KieWeaversImpl
+
+27-Aug-2020 10:26:14.085 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.kie.internal.services.KieBeliefsImpl
+
+27-Aug-2020 10:26:14.085 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/drools-decisiontables-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.087 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.drools.decisiontable.DecisionTableProviderImpl
+
+27-Aug-2020 10:26:14.087 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/drools-model-compiler-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.091 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.drools.modelcompiler.CanonicalKieModuleProvider
+
+27-Aug-2020 10:26:14.091 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/kie-pmml-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.421 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service +org.kie.pmml.assembler.PMMLAssemblerService
+
+27-Aug-2020 10:26:14.421 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/drools-persistence-jpa-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.435 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.drools.persistence.jpa.KnowledgeStoreServiceImpl
+
+27-Aug-2020 10:26:14.437 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.jbpm.persistence.correlation.JPACorrelationKeyFactory
+
+27-Aug-2020 10:26:14.437 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/jbpm-case-mgmt-cmmn-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.439 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.jbpm.casemgmt.cmmn.CMMNCaseProviderImpl
+
+27-Aug-2020 10:26:14.439 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/jbpm-flow-builder-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.441 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.jbpm.process.builder.ProcessBuilderFactoryServiceImpl
+
+27-Aug-2020 10:26:14.441 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/drools-scorecards-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.443 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.drools.scorecards.ScoreCardProviderImpl
+
+27-Aug-2020 10:26:14.443 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/kie-dmn-core-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.447 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service +org.kie.dmn.core.assembler.DMNAssemblerService
+
+27-Aug-2020 10:26:14.449 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service +org.kie.dmn.core.runtime.DMNRuntimeService
+
+27-Aug-2020 10:26:14.451 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service +org.kie.dmn.core.weaver.DMNWeaverService
+
+27-Aug-2020 10:26:14.451 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/drools-core-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.453 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.drools.core.io.impl.ResourceFactoryServiceImpl
+
+27-Aug-2020 10:26:14.456 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.drools.core.marshalling.impl.MarshallerProviderImpl
+
+27-Aug-2020 10:26:14.458 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.drools.core.concurrent.ExecutorProviderImpl
+
+27-Aug-2020 10:26:14.458 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/drools-workbench-models-guided-scorecard-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.460 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.drools.workbench.models.guided.scorecard.backend.GuidedScoreCardProviderImpl
+
+27-Aug-2020 10:26:14.460 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/optaplanner-core-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.461 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service +org.optaplanner.core.impl.solver.kie.KieSolverAssemblerService
+
+27-Aug-2020 10:26:14.461 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/jbpm-human-task-jpa-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.463 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.jbpm.services.task.persistence.TaskModelProviderImpl
+
+27-Aug-2020 10:26:14.463 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.registerConfs Loading kie.conf from  jar:file:/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server/WEB-INF/lib/drools-compiler-7.11.0.Final.jar!/META-INF/kie.conf in classloader ParallelWebappClassLoader
+  context: kie-server
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@20ad9418
+
+27-Aug-2020 10:26:14.472 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.drools.compiler.kie.builder.impl.KieServicesImpl
+
+27-Aug-2020 10:26:14.476 INFO [main] org.kie.api.internal.utils.ServiceDiscoveryImpl.processKieService Adding Service org.drools.compiler.builder.impl.KnowledgeBuilderFactoryServiceImpl
+
+27-Aug-2020 10:26:14.507 INFO [main] org.kie.server.services.impl.storage.KieServerState.<init> Added default controller located at http://localhost:8080/kie-drools-wb/rest/controller
+27-Aug-2020 10:26:14.538 INFO [main] org.kie.server.services.impl.storage.KieServerState.<init> Added default controller located at http://localhost:8080/kie-drools-wb/rest/controller
+27-Aug-2020 10:26:14.586 INFO [main] org.kie.server.services.impl.KieServerImpl.init Server Default Extension has been successfully registered as server extension
+27-Aug-2020 10:26:14.650 INFO [main] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: org.jbpm.domain
+	...]
+27-Aug-2020 10:26:14.816 INFO [main] org.hibernate.Version.logVersion HHH000412: Hibernate Core {5.1.15.Final}
+27-Aug-2020 10:26:14.819 INFO [main] org.hibernate.cfg.Environment.<clinit> HHH000206: hibernate.properties not found
+27-Aug-2020 10:26:14.821 INFO [main] org.hibernate.cfg.Environment.buildBytecodeProvider HHH000021: Bytecode provider name : javassist
+27-Aug-2020 10:26:14.914 INFO [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit> HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+27-Aug-2020 10:26:15.496 INFO [main] org.hibernate.dialect.Dialect.<init> HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+27-Aug-2020 10:26:15.575 INFO [main] org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl.useContextualLobCreation HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+27-Aug-2020 10:26:17.474 INFO [main] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator.initiateService HHH000397: Using ASTQueryTranslatorFactory
+27-Aug-2020 10:26:19.735 INFO [main] org.drools.persistence.api.TransactionManagerFactory.setInstance Using org.drools.persistence.jta.JtaTransactionManagerFactory@1e221a74
+27-Aug-2020 10:26:20.277 INFO [main] org.kie.server.api.marshalling.json.JSONMarshaller.<clinit> Marshaller extensions init
+27-Aug-2020 10:26:20.600 INFO [main] org.kie.server.services.impl.KieServerImpl.init jBPM KIE Server extension has been successfully registered as server extension
+27-Aug-2020 10:26:20.603 INFO [main] org.kie.server.services.impl.KieServerImpl.init Drools KIE Server extension has been successfully registered as server extension
+27-Aug-2020 10:26:20.638 INFO [main] org.kie.server.services.impl.KieServerImpl.init Case-Mgmt KIE Server extension has been successfully registered as server extension
+27-Aug-2020 10:26:20.717 INFO [main] org.kie.server.services.impl.KieServerImpl.init jBPM-UI KIE Server extension has been successfully registered as server extension
+27-Aug-2020 10:26:20.722 INFO [main] org.kie.server.services.impl.KieServerImpl.init OptaPlanner KIE Server extension has been successfully registered as server extension
+27-Aug-2020 10:26:20.725 INFO [main] org.kie.server.services.impl.KieServerImpl.init DMN KIE Server extension has been successfully registered as server extension
+27-Aug-2020 10:26:20.790 WARNING [main] org.reflections.Reflections.scan given scan urls are empty. set urls in the configuration
+27-Aug-2020 10:26:20.836 INFO [main] org.kie.server.services.impl.KieServerImpl.init Swagger KIE Server extension has been successfully registered as server extension
+27-Aug-2020 10:26:20.842 INFO [main] org.kie.server.services.impl.policy.PolicyManager.lambda$start$0 Registered KeepLatestContainerOnlyPolicy{interval=0 ms} policy under name KeepLatestOnly
+27-Aug-2020 10:26:20.843 INFO [main] org.kie.server.services.impl.policy.PolicyManager.start Policy manager started successfully, activated policies are []
+27-Aug-2020 10:26:20.849 INFO [main] org.kie.server.services.impl.KieServerImpl.init Selected startup strategy ControllerBasedStartupStrategy - deploys kie containers given by controller ignoring locally defined
+27-Aug-2020 10:26:20.860 INFO [main] org.kie.server.controller.websocket.client.WebSocketKieServerControllerImpl.connect Kie Server points to non Web Socket controller 'http://localhost:8080/kie-drools-wb/rest/controller', using default REST mechanism
+27-Aug-2020 10:26:20.862 WARNING [main] org.kie.server.common.KeyStoreHelperUtil.loadControllerPassword Unable to load key store. Using password from configuration
+27-Aug-2020 10:26:23.311 INFO [main] org.kie.server.services.impl.ContainerManager.installContainersSync About to install containers '[KieContainerResource [containerId=KIE-Drools-POC_1.0.0, releaseId=com.myspace:KIE-Drools-POC:1.0.0, resolvedReleaseId=null, status=STARTED]]' on kie server 'KieServer{id='tomcat-kieserver'name='tomcat-kieserver'version='7.11.0.Final'location='http://localhost:8383/kie-server/services/rest/server'}'
+27-Aug-2020 10:26:23.361 WARNING [main] org.appformer.maven.integration.embedder.MavenSettings.initSettings Environment variable M2_HOME is not set
+27-Aug-2020 10:26:28.456 INFO [main] org.drools.compiler.kie.builder.impl.KieRepositoryImpl.addKieModule KieModule was added: ZipKieModule[releaseId=com.myspace:KIE-Drools-POC:1.0.0,file=/home/kieuser/.m2/repository/com/myspace/KIE-Drools-POC/1.0.0/KIE-Drools-POC-1.0.0.jar]
+27-Aug-2020 10:26:29.633 INFO [main] org.kie.server.services.impl.KieServerImpl.createContainer Container KIE-Drools-POC_1.0.0 (for release id com.myspace:KIE-Drools-POC:1.0.0) successfully started
+27-Aug-2020 10:26:29.660 INFO [main] org.kie.server.services.impl.KieServerImpl.markAsReady KieServer tomcat-kieserver is ready to receive requests
+27-Aug-2020 10:26:29.664 INFO [main] org.jbpm.executor.impl.ExecutorImpl.init Starting jBPM Executor Component ...
+ 	 - Thread Pool Size: 1
+ 	 - Retries per Request: 3
+ 	 - Load from storage interval: 0 SECONDS (if less or equal 0 only initial sync with storage) 
+
+27-Aug-2020 10:26:29.666 WARNING [main] org.jbpm.executor.impl.ExecutorImpl.init Disabling JMS support in executor because: unable to initialize JMS configuration for executor due to Name [JmsXA] is not bound in this Context. Unable to find [JmsXA].
+27-Aug-2020 10:26:29.668 INFO [main] org.kie.server.services.Bootstrap.contextInitialized KieServer (id tomcat-kieserver) started successfully
+27-Aug-2020 10:26:29.668 INFO [pool-7-thread-1] org.jbpm.executor.impl.concurrent.LoadAndScheduleRequestsTask.run Load of jobs from storage started at Thu Aug 27 10:26:29 EDT 2020
+27-Aug-2020 10:26:29.680 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/kieuser/apache-tomcat-9.0.37_2nd_KieServer/webapps/kie-server] has finished in [23,458] ms
+27-Aug-2020 10:26:29.685 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8383"]
+27-Aug-2020 10:26:29.698 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [24420] milliseconds
+27-Aug-2020 10:26:29.705 INFO [pool-7-thread-1] org.jbpm.executor.impl.concurrent.LoadAndScheduleRequestsTask.run Load of jobs from storage finished at Thu Aug 27 10:26:29 EDT 2020
+27-Aug-2020 10:27:00.686 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002225: Deploying javax.ws.rs.core.Application: class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.693 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.common.resource.KieServerRestImpl from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.693 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.common.resource.KieServerResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.694 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.drools.CommandResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.694 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.ProcessResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.694 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.RuntimeDataResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.694 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.DefinitionResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.695 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.UserTaskResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.695 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.ExecutorResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.695 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.QueryDataResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.695 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.DocumentResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.696 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.admin.ProcessAdminResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.696 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.admin.UserTaskAdminResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.696 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.casemgmt.CaseResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.696 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.casemgmt.CaseQueryResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.697 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.casemgmt.CaseAdminResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.697 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.ui.FormResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.698 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.jbpm.ui.ImageResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.698 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.optaplanner.SolverResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.698 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.dmn.ModelEvaluatorResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.698 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002220: Adding singleton resource org.kie.server.remote.rest.swagger.KieApiListingResource from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:27:00.699 INFO [http-nio-8383-exec-1] org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.processApplication RESTEASY002215: Adding singleton provider io.swagger.jaxrs.listing.SwaggerSerializers from Application class org.kie.server.remote.rest.common.KieServerApplication
+27-Aug-2020 10:55:35.708 WARNING [http-nio-8383-exec-5] org.drools.persistence.PersistableRunner.rollbackTransaction Could not commit session
+	org.jbpm.workflow.instance.WorkflowRuntimeException: [Sample-Process:5 - ApplicationEligibilityTask:4] -- [Sample-Process:5 - print task:2] -- null
+		at org.jbpm.workflow.instance.node.RuleSetNodeInstance.handleException(RuleSetNodeInstance.java:207)
+		at org.jbpm.workflow.instance.node.RuleSetNodeInstance.internalTrigger(RuleSetNodeInstance.java:187)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.trigger(NodeInstanceImpl.java:192)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.triggerNodeInstance(NodeInstanceImpl.java:386)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.triggerCompleted(NodeInstanceImpl.java:345)
+		at org.jbpm.workflow.instance.node.StartNodeInstance.triggerCompleted(StartNodeInstance.java:72)
+		at org.jbpm.workflow.instance.node.StartNodeInstance.internalTrigger(StartNodeInstance.java:43)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.trigger(NodeInstanceImpl.java:192)
+		at org.jbpm.ruleflow.instance.RuleFlowProcessInstance.internalStart(RuleFlowProcessInstance.java:38)
+		at org.jbpm.process.instance.impl.ProcessInstanceImpl.start(ProcessInstanceImpl.java:233)
+		at org.jbpm.workflow.instance.impl.WorkflowProcessInstanceImpl.start(WorkflowProcessInstanceImpl.java:476)
+		at org.jbpm.process.instance.ProcessRuntimeImpl.startProcessInstance(ProcessRuntimeImpl.java:210)
+		at org.jbpm.process.instance.ProcessRuntimeImpl.startProcess(ProcessRuntimeImpl.java:193)
+		at org.jbpm.process.instance.ProcessRuntimeImpl.startProcess(ProcessRuntimeImpl.java:185)
+		at org.drools.core.impl.StatefulKnowledgeSessionImpl.startProcess(StatefulKnowledgeSessionImpl.java:1857)
+		at org.drools.core.command.runtime.process.StartProcessCommand.execute(StartProcessCommand.java:122)
+		at org.drools.core.command.runtime.process.StartProcessCommand.execute(StartProcessCommand.java:40)
+		at org.drools.core.fluent.impl.PseudoClockRunner.executeBatch(PseudoClockRunner.java:102)
+		at org.drools.core.fluent.impl.PseudoClockRunner.executeBatches(PseudoClockRunner.java:69)
+		at org.drools.core.fluent.impl.PseudoClockRunner.execute(PseudoClockRunner.java:61)
+		at org.drools.core.fluent.impl.PseudoClockRunner.execute(PseudoClockRunner.java:39)
+		at org.drools.core.command.impl.AbstractInterceptor.executeNext(AbstractInterceptor.java:39)
+		at org.drools.persistence.PersistableRunner$TransactionInterceptor.execute(PersistableRunner.java:597)
+		at org.drools.persistence.PersistableRunner$TransactionInterceptor.execute(PersistableRunner.java:563)
+		at org.drools.core.command.impl.AbstractInterceptor.executeNext(AbstractInterceptor.java:39)
+		at org.drools.persistence.jpa.OptimisticLockRetryInterceptor.internalExecute(OptimisticLockRetryInterceptor.java:102)
+		at org.drools.persistence.jpa.OptimisticLockRetryInterceptor.execute(OptimisticLockRetryInterceptor.java:83)
+		at org.drools.persistence.jpa.OptimisticLockRetryInterceptor.execute(OptimisticLockRetryInterceptor.java:44)
+		at org.drools.core.command.impl.AbstractInterceptor.executeNext(AbstractInterceptor.java:39)
+		at org.drools.persistence.jta.TransactionLockInterceptor.execute(TransactionLockInterceptor.java:73)
+		at org.drools.persistence.jta.TransactionLockInterceptor.execute(TransactionLockInterceptor.java:45)
+		at org.drools.core.command.impl.AbstractInterceptor.executeNext(AbstractInterceptor.java:39)
+		at org.jbpm.runtime.manager.impl.error.ExecutionErrorHandlerInterceptor.internalExecute(ExecutionErrorHandlerInterceptor.java:66)
+		at org.jbpm.runtime.manager.impl.error.ExecutionErrorHandlerInterceptor.execute(ExecutionErrorHandlerInterceptor.java:52)
+		at org.jbpm.runtime.manager.impl.error.ExecutionErrorHandlerInterceptor.execute(ExecutionErrorHandlerInterceptor.java:29)
+		at org.drools.persistence.PersistableRunner.execute(PersistableRunner.java:398)
+		at org.drools.persistence.PersistableRunner.execute(PersistableRunner.java:66)
+		at org.drools.core.runtime.InternalLocalRunner.execute(InternalLocalRunner.java:37)
+		at org.drools.core.runtime.InternalLocalRunner.execute(InternalLocalRunner.java:41)
+		at org.drools.core.command.impl.CommandBasedStatefulKnowledgeSession.startProcess(CommandBasedStatefulKnowledgeSession.java:263)
+		at org.jbpm.kie.services.impl.ProcessServiceImpl.startProcess(ProcessServiceImpl.java:114)
+		at org.kie.server.services.jbpm.ProcessServiceBase.startProcess(ProcessServiceBase.java:95)
+		at org.kie.server.remote.rest.jbpm.ProcessResource.startProcess(ProcessResource.java:142)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:140)
+		at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:295)
+		at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:249)
+		at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:236)
+		at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:406)
+		at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:213)
+		at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:228)
+		at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+		at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.kie.server.services.impl.security.web.CaptureHttpRequestFilter.doFilter(CaptureHttpRequestFilter.java:42)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:666)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.kie.integration.tomcat.JACCValve.invoke(JACCValve.java:113)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.jbpm.workflow.instance.WorkflowRuntimeException: [Sample-Process:5 - print task:2] -- null
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.executeAction(NodeInstanceImpl.java:225)
+		at org.jbpm.workflow.instance.node.ActionNodeInstance.internalTrigger(ActionNodeInstance.java:47)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.trigger(NodeInstanceImpl.java:192)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.triggerNodeInstance(NodeInstanceImpl.java:386)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.triggerCompleted(NodeInstanceImpl.java:345)
+		at org.jbpm.workflow.instance.impl.ExtendedNodeInstanceImpl.triggerCompleted(ExtendedNodeInstanceImpl.java:44)
+		at org.jbpm.workflow.instance.node.StateBasedNodeInstance.triggerCompleted(StateBasedNodeInstance.java:394)
+		at org.jbpm.workflow.instance.node.StateBasedNodeInstance.triggerCompleted(StateBasedNodeInstance.java:357)
+		at org.jbpm.workflow.instance.node.RuleSetNodeInstance.internalTrigger(RuleSetNodeInstance.java:183)
+		... 81 more
+	Caused by: java.lang.NullPointerException
+		at com.poc.Process_com$u46$poc$u46$Sample$u45$Process647336268.action0(Process_com$u46$poc$u46$Sample$u45$Process647336268.java:13)
+		at com.poc.Process_com$u46$poc$u46$Sample$u45$Process647336268Action0Invoker.execute(Process_com$u46$poc$u46$Sample$u45$Process647336268Action0Invoker.java:15)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.executeAction(NodeInstanceImpl.java:219)
+		... 89 more
+27-Aug-2020 10:55:35.725 SEVERE [http-nio-8383-exec-5] org.kie.server.remote.rest.jbpm.ProcessResource.startProcess Unexpected error during processing [Sample-Process:5 - ApplicationEligibilityTask:4] -- [Sample-Process:5 - print task:2] -- null
+	org.jbpm.workflow.instance.WorkflowRuntimeException: [Sample-Process:5 - ApplicationEligibilityTask:4] -- [Sample-Process:5 - print task:2] -- null
+		at org.jbpm.workflow.instance.node.RuleSetNodeInstance.handleException(RuleSetNodeInstance.java:207)
+		at org.jbpm.workflow.instance.node.RuleSetNodeInstance.internalTrigger(RuleSetNodeInstance.java:187)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.trigger(NodeInstanceImpl.java:192)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.triggerNodeInstance(NodeInstanceImpl.java:386)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.triggerCompleted(NodeInstanceImpl.java:345)
+		at org.jbpm.workflow.instance.node.StartNodeInstance.triggerCompleted(StartNodeInstance.java:72)
+		at org.jbpm.workflow.instance.node.StartNodeInstance.internalTrigger(StartNodeInstance.java:43)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.trigger(NodeInstanceImpl.java:192)
+		at org.jbpm.ruleflow.instance.RuleFlowProcessInstance.internalStart(RuleFlowProcessInstance.java:38)
+		at org.jbpm.process.instance.impl.ProcessInstanceImpl.start(ProcessInstanceImpl.java:233)
+		at org.jbpm.workflow.instance.impl.WorkflowProcessInstanceImpl.start(WorkflowProcessInstanceImpl.java:476)
+		at org.jbpm.process.instance.ProcessRuntimeImpl.startProcessInstance(ProcessRuntimeImpl.java:210)
+		at org.jbpm.process.instance.ProcessRuntimeImpl.startProcess(ProcessRuntimeImpl.java:193)
+		at org.jbpm.process.instance.ProcessRuntimeImpl.startProcess(ProcessRuntimeImpl.java:185)
+		at org.drools.core.impl.StatefulKnowledgeSessionImpl.startProcess(StatefulKnowledgeSessionImpl.java:1857)
+		at org.drools.core.command.runtime.process.StartProcessCommand.execute(StartProcessCommand.java:122)
+		at org.drools.core.command.runtime.process.StartProcessCommand.execute(StartProcessCommand.java:40)
+		at org.drools.core.fluent.impl.PseudoClockRunner.executeBatch(PseudoClockRunner.java:102)
+		at org.drools.core.fluent.impl.PseudoClockRunner.executeBatches(PseudoClockRunner.java:69)
+		at org.drools.core.fluent.impl.PseudoClockRunner.execute(PseudoClockRunner.java:61)
+		at org.drools.core.fluent.impl.PseudoClockRunner.execute(PseudoClockRunner.java:39)
+		at org.drools.core.command.impl.AbstractInterceptor.executeNext(AbstractInterceptor.java:39)
+		at org.drools.persistence.PersistableRunner$TransactionInterceptor.execute(PersistableRunner.java:597)
+		at org.drools.persistence.PersistableRunner$TransactionInterceptor.execute(PersistableRunner.java:563)
+		at org.drools.core.command.impl.AbstractInterceptor.executeNext(AbstractInterceptor.java:39)
+		at org.drools.persistence.jpa.OptimisticLockRetryInterceptor.internalExecute(OptimisticLockRetryInterceptor.java:102)
+		at org.drools.persistence.jpa.OptimisticLockRetryInterceptor.execute(OptimisticLockRetryInterceptor.java:83)
+		at org.drools.persistence.jpa.OptimisticLockRetryInterceptor.execute(OptimisticLockRetryInterceptor.java:44)
+		at org.drools.core.command.impl.AbstractInterceptor.executeNext(AbstractInterceptor.java:39)
+		at org.drools.persistence.jta.TransactionLockInterceptor.execute(TransactionLockInterceptor.java:73)
+		at org.drools.persistence.jta.TransactionLockInterceptor.execute(TransactionLockInterceptor.java:45)
+		at org.drools.core.command.impl.AbstractInterceptor.executeNext(AbstractInterceptor.java:39)
+		at org.jbpm.runtime.manager.impl.error.ExecutionErrorHandlerInterceptor.internalExecute(ExecutionErrorHandlerInterceptor.java:66)
+		at org.jbpm.runtime.manager.impl.error.ExecutionErrorHandlerInterceptor.execute(ExecutionErrorHandlerInterceptor.java:52)
+		at org.jbpm.runtime.manager.impl.error.ExecutionErrorHandlerInterceptor.execute(ExecutionErrorHandlerInterceptor.java:29)
+		at org.drools.persistence.PersistableRunner.execute(PersistableRunner.java:398)
+		at org.drools.persistence.PersistableRunner.execute(PersistableRunner.java:66)
+		at org.drools.core.runtime.InternalLocalRunner.execute(InternalLocalRunner.java:37)
+		at org.drools.core.runtime.InternalLocalRunner.execute(InternalLocalRunner.java:41)
+		at org.drools.core.command.impl.CommandBasedStatefulKnowledgeSession.startProcess(CommandBasedStatefulKnowledgeSession.java:263)
+		at org.jbpm.kie.services.impl.ProcessServiceImpl.startProcess(ProcessServiceImpl.java:114)
+		at org.kie.server.services.jbpm.ProcessServiceBase.startProcess(ProcessServiceBase.java:95)
+		at org.kie.server.remote.rest.jbpm.ProcessResource.startProcess(ProcessResource.java:142)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:140)
+		at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:295)
+		at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:249)
+		at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:236)
+		at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:406)
+		at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:213)
+		at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:228)
+		at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+		at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.kie.server.services.impl.security.web.CaptureHttpRequestFilter.doFilter(CaptureHttpRequestFilter.java:42)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:666)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.kie.integration.tomcat.JACCValve.invoke(JACCValve.java:113)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1589)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+	Caused by: org.jbpm.workflow.instance.WorkflowRuntimeException: [Sample-Process:5 - print task:2] -- null
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.executeAction(NodeInstanceImpl.java:225)
+		at org.jbpm.workflow.instance.node.ActionNodeInstance.internalTrigger(ActionNodeInstance.java:47)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.trigger(NodeInstanceImpl.java:192)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.triggerNodeInstance(NodeInstanceImpl.java:386)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.triggerCompleted(NodeInstanceImpl.java:345)
+		at org.jbpm.workflow.instance.impl.ExtendedNodeInstanceImpl.triggerCompleted(ExtendedNodeInstanceImpl.java:44)
+		at org.jbpm.workflow.instance.node.StateBasedNodeInstance.triggerCompleted(StateBasedNodeInstance.java:394)
+		at org.jbpm.workflow.instance.node.StateBasedNodeInstance.triggerCompleted(StateBasedNodeInstance.java:357)
+		at org.jbpm.workflow.instance.node.RuleSetNodeInstance.internalTrigger(RuleSetNodeInstance.java:183)
+		... 81 more
+	Caused by: java.lang.NullPointerException
+		at com.poc.Process_com$u46$poc$u46$Sample$u45$Process647336268.action0(Process_com$u46$poc$u46$Sample$u45$Process647336268.java:13)
+		at com.poc.Process_com$u46$poc$u46$Sample$u45$Process647336268Action0Invoker.execute(Process_com$u46$poc$u46$Sample$u45$Process647336268Action0Invoker.java:15)
+		at org.jbpm.workflow.instance.impl.NodeInstanceImpl.executeAction(NodeInstanceImpl.java:219)
+		... 89 more
+27-Aug-2020 14:28:42.462 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+27-Aug-2020 14:28:42.463 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8383"]
+27-Aug-2020 14:28:42.470 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+27-Aug-2020 14:28:42.495 INFO [main] org.kie.server.services.impl.policy.PolicyManager.stop Policy manager stopped successfully
+27-Aug-2020 14:28:42.495 INFO [main] org.kie.server.controller.websocket.client.WebSocketKieServerControllerImpl.disconnect Kie Server points to non Web Socket controller 'http://localhost:8080/kie-drools-wb/rest/controller', using default REST mechanism
+27-Aug-2020 14:28:42.495 WARNING [main] org.kie.server.common.KeyStoreHelperUtil.loadControllerPassword Unable to load key store. Using password from configuration
+27-Aug-2020 14:28:43.319 INFO [main] org.kie.server.services.impl.KieServerImpl.destroy Server Default Extension has been successfully unregistered as server extension
+27-Aug-2020 14:28:43.319 INFO [main] org.kie.server.services.impl.KieServerImpl.destroy Drools KIE Server extension has been successfully unregistered as server extension
+27-Aug-2020 14:28:43.321 INFO [main] org.jbpm.executor.impl.ExecutorImpl.destroy Stopping jBPM Executor component
+27-Aug-2020 14:28:43.323 INFO [main] org.kie.server.services.impl.KieServerImpl.destroy jBPM KIE Server extension has been successfully unregistered as server extension
+27-Aug-2020 14:28:43.323 INFO [main] org.kie.server.services.impl.KieServerImpl.destroy Case-Mgmt KIE Server extension has been successfully unregistered as server extension
+27-Aug-2020 14:28:43.323 INFO [main] org.kie.server.services.impl.KieServerImpl.destroy jBPM-UI KIE Server extension has been successfully unregistered as server extension
+27-Aug-2020 14:28:43.323 INFO [main] org.kie.server.services.impl.KieServerImpl.destroy OptaPlanner KIE Server extension has been successfully unregistered as server extension
+27-Aug-2020 14:28:43.323 INFO [main] org.kie.server.services.impl.KieServerImpl.destroy DMN KIE Server extension has been successfully unregistered as server extension
+27-Aug-2020 14:28:43.323 INFO [main] org.kie.server.services.impl.KieServerImpl.destroy Swagger KIE Server extension has been successfully unregistered as server extension
+27-Aug-2020 14:28:43.323 INFO [main] org.kie.server.services.Bootstrap.contextDestroyed KieServer (id tomcat-kieserver) destroyed successfully
+27-Aug-2020 14:28:43.352 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [kie-server] appears to have started a thread named [drools-worker-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+27-Aug-2020 14:28:43.352 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [kie-server] appears to have started a thread named [drools-worker-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+ java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+27-Aug-2020 14:28:43.353 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [kie-server] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@6d216335]) and a value of type [org.kie.server.services.jbpm.security.JMSUserGroupAdapter] (value [org.kie.server.services.jbpm.security.JMSUserGroupAdapter@297b25d3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+27-Aug-2020 14:28:43.373 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8383"]
+27-Aug-2020 14:28:43.376 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8383"]

@@ -1,0 +1,20 @@
+package com.example.poc;
+
+import com.example.poc.Person;
+
+
+rule "Approve Loans for Male Gender"
+dialect "mvel"
+   when
+      person : Person(age>=21 , gender == "M")
+   then
+      person.setStatus("Loan Approved");
+end
+
+rule "Dont Approve Loans for Female Gender"
+dialect "mvel"
+   when
+      person : Person(gender == "F")
+   then
+      person.setStatus("Sorry.. Loan Not Approved");
+end

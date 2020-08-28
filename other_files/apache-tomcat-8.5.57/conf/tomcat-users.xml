@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<tomcat-users xmlns="http://tomcat.apache.org/xml"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://tomcat.apache.org/xml tomcat-users.xsd"
+              version="1.0">
+  <role rolename="role1"/>
+  <role rolename="manager"/>
+  <role rolename="tomcat"/>
+  <role rolename="admin-gui"/>
+  <role rolename="admin"/>
+  <role rolename="analyst"/>
+  <role rolename="developer"/>
+  <role rolename="kie-server"/>
+  <role rolename="user"/>
+  <role rolename="manager-gui"/>
+  <user username="role1" password="role1" roles="role1"/>
+  <user username="tomcat" password="tomcat" roles="tomcat"/>
+  <user username="kieserver" password="kieserver1!" roles="kie-server"/>
+  <user username="serveruser" password="my.s3cr3t.pass" roles="kie-server"/>
+  <user username="admin" password="admin" roles="admin,admin-gui,manager-gui,kie-server"/>
+  <user username="developer" password="developer" roles="user,developer,analyst"/>
+  <user username="both" password="both" roles="tomcat,role1"/>
+</tomcat-users>

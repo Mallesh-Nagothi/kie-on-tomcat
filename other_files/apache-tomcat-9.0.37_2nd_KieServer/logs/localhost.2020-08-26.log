@@ -1,0 +1,89 @@
+26-Aug-2020 00:19:30.262 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Aug-2020 00:19:30.262 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+26-Aug-2020 09:57:50.767 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Aug-2020 09:57:50.767 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Aug-2020 09:57:50.769 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@614ca7df')
+26-Aug-2020 09:58:05.709 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/*] only the HTTP methods [DELETE POST GET PUT] are covered. All other methods are uncovered.
+26-Aug-2020 09:58:05.709 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/server/swagger.json] only the HTTP methods [GET] are covered. All other methods are uncovered.
+26-Aug-2020 10:03:39.205 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Aug-2020 10:03:39.205 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+26-Aug-2020 10:03:42.953 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Aug-2020 10:03:42.954 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Aug-2020 10:03:42.955 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@6283d8b8')
+26-Aug-2020 10:04:01.354 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/*] only the HTTP methods [DELETE POST GET PUT] are covered. All other methods are uncovered.
+26-Aug-2020 10:04:01.354 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/server/swagger.json] only the HTTP methods [GET] are covered. All other methods are uncovered.
+26-Aug-2020 10:05:59.841 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Aug-2020 10:05:59.841 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+26-Aug-2020 10:06:46.447 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Aug-2020 10:06:46.447 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Aug-2020 10:06:46.449 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@614ca7df')
+26-Aug-2020 10:07:06.247 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/*] only the HTTP methods [DELETE POST GET PUT] are covered. All other methods are uncovered.
+26-Aug-2020 10:07:06.247 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/server/swagger.json] only the HTTP methods [GET] are covered. All other methods are uncovered.
+26-Aug-2020 10:10:17.668 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Aug-2020 10:10:17.668 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+26-Aug-2020 12:53:40.547 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Aug-2020 12:53:40.547 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Aug-2020 12:53:40.549 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@614ca7df')
+26-Aug-2020 12:53:54.297 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/*] only the HTTP methods [DELETE POST GET PUT] are covered. All other methods are uncovered.
+26-Aug-2020 12:53:54.297 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/server/swagger.json] only the HTTP methods [GET] are covered. All other methods are uncovered.
+26-Aug-2020 12:58:29.779 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Aug-2020 12:58:29.779 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+26-Aug-2020 13:33:55.707 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Aug-2020 13:33:55.707 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Aug-2020 13:33:55.710 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@614ca7df')
+26-Aug-2020 13:34:16.056 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/*] only the HTTP methods [DELETE POST GET PUT] are covered. All other methods are uncovered.
+26-Aug-2020 13:34:16.056 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/server/swagger.json] only the HTTP methods [GET] are covered. All other methods are uncovered.
+26-Aug-2020 14:28:50.483 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Aug-2020 14:28:50.483 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+26-Aug-2020 14:32:16.810 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Aug-2020 14:32:16.811 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Aug-2020 14:32:16.812 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@614ca7df')
+26-Aug-2020 14:32:31.044 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/*] only the HTTP methods [DELETE POST GET PUT] are covered. All other methods are uncovered.
+26-Aug-2020 14:32:31.044 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/server/swagger.json] only the HTTP methods [GET] are covered. All other methods are uncovered.
+26-Aug-2020 14:36:51.298 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Aug-2020 14:36:51.298 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+26-Aug-2020 14:39:30.348 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Aug-2020 14:39:30.349 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Aug-2020 14:39:30.351 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@614ca7df')
+26-Aug-2020 14:39:50.847 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/*] only the HTTP methods [DELETE POST GET PUT] are covered. All other methods are uncovered.
+26-Aug-2020 14:39:50.847 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/server/swagger.json] only the HTTP methods [GET] are covered. All other methods are uncovered.
+26-Aug-2020 14:51:44.565 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Aug-2020 14:51:44.565 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+26-Aug-2020 15:57:43.136 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Aug-2020 15:57:43.137 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Aug-2020 15:57:43.138 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@614ca7df')
+26-Aug-2020 15:57:55.772 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/*] only the HTTP methods [DELETE POST GET PUT] are covered. All other methods are uncovered.
+26-Aug-2020 15:57:55.772 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/server/swagger.json] only the HTTP methods [GET] are covered. All other methods are uncovered.
+26-Aug-2020 16:12:35.910 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Aug-2020 16:12:35.910 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+26-Aug-2020 16:17:16.390 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Aug-2020 16:17:16.390 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Aug-2020 16:17:16.392 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4738a206')
+26-Aug-2020 16:17:29.200 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/*] only the HTTP methods [DELETE POST GET PUT] are covered. All other methods are uncovered.
+26-Aug-2020 16:17:29.200 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/server/swagger.json] only the HTTP methods [GET] are covered. All other methods are uncovered.
+26-Aug-2020 16:26:45.871 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Aug-2020 16:26:45.871 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+26-Aug-2020 16:28:54.715 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Aug-2020 16:28:54.716 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Aug-2020 16:28:54.718 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4738a206')
+26-Aug-2020 16:29:14.284 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/*] only the HTTP methods [DELETE POST GET PUT] are covered. All other methods are uncovered.
+26-Aug-2020 16:29:14.284 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/server/swagger.json] only the HTTP methods [GET] are covered. All other methods are uncovered.
+26-Aug-2020 16:41:34.389 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Aug-2020 16:41:34.389 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+26-Aug-2020 16:42:58.437 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Aug-2020 16:42:58.437 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Aug-2020 16:42:58.440 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@4738a206')
+26-Aug-2020 16:43:18.129 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/*] only the HTTP methods [DELETE POST GET PUT] are covered. All other methods are uncovered.
+26-Aug-2020 16:43:18.129 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/server/swagger.json] only the HTTP methods [GET] are covered. All other methods are uncovered.
+26-Aug-2020 17:40:57.005 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Aug-2020 17:40:57.006 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Aug-2020 17:40:57.007 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@a530d0a')
+26-Aug-2020 17:41:14.280 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/*] only the HTTP methods [DELETE POST GET PUT] are covered. All other methods are uncovered.
+26-Aug-2020 17:41:14.280 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/server/swagger.json] only the HTTP methods [GET] are covered. All other methods are uncovered.
+26-Aug-2020 22:15:16.931 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+26-Aug-2020 22:15:16.931 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+26-Aug-2020 22:37:56.818 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+26-Aug-2020 22:37:56.818 INFO [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+26-Aug-2020 22:37:56.820 INFO [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@a530d0a')
+26-Aug-2020 22:38:10.973 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/*] only the HTTP methods [DELETE POST GET PUT] are covered. All other methods are uncovered.
+26-Aug-2020 22:38:10.974 SEVERE [main] org.apache.tomcat.util.descriptor.web.SecurityConstraint.findUncoveredHttpMethods For security constraints with URL pattern [/services/rest/server/swagger.json] only the HTTP methods [GET] are covered. All other methods are uncovered.

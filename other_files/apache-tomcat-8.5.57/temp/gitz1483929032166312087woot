@@ -1,0 +1,14 @@
+package com.example.poc;
+
+import java.lang.Number;
+
+rule "LoanApporval"
+	dialect "mvel"
+	when
+		exists (Person( )) 
+		Person( id != null )
+		Person( age > 21 )
+		Person( gender == "M" )
+	then
+		insertLogical( new Person() );
+end

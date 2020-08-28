@@ -1,0 +1,19 @@
+<org.kie.server.controller.api.model.spec.ServerTemplate>
+  <id>tomcat-prod-kieserver</id>
+  <name>tomcat-prod-kieserver</name>
+  <containersSpec class="list"/>
+  <configs/>
+  <serverInstances class="list">
+    <org.kie.server.controller.api.model.runtime.ServerInstanceKey>
+      <serverInstanceId>tomcat-prod-kieserver@localhost:8484</serverInstanceId>
+      <serverName>tomcat-prod-kieserver@localhost:8484</serverName>
+      <serverTemplateId>tomcat-prod-kieserver</serverTemplateId>
+      <url>http://localhost:8484/kie-server/services/rest/server</url>
+    </org.kie.server.controller.api.model.runtime.ServerInstanceKey>
+  </serverInstances>
+  <capabilities>
+    <string>RULE</string>
+    <string>PROCESS</string>
+    <string>PLANNING</string>
+  </capabilities>
+</org.kie.server.controller.api.model.spec.ServerTemplate>

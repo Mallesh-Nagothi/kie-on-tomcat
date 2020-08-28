@@ -1,0 +1,7 @@
+<org.kie.workbench.common.screens.explorer.backend.server.UserExplorerLastData>
+  <options>
+    <org.kie.workbench.common.screens.explorer.service.Option>BREADCRUMB_NAVIGATOR</org.kie.workbench.common.screens.explorer.service.Option>
+    <org.kie.workbench.common.screens.explorer.service.Option>BUSINESS_CONTENT</org.kie.workbench.common.screens.explorer.service.Option>
+    <org.kie.workbench.common.screens.explorer.service.Option>EXCLUDE_HIDDEN_ITEMS</org.kie.workbench.common.screens.explorer.service.Option>
+  </options>
+</org.kie.workbench.common.screens.explorer.backend.server.UserExplorerLastData>

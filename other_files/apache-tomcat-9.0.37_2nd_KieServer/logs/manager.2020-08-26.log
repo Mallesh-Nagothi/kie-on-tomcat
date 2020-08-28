@@ -1,0 +1,8 @@
+26-Aug-2020 00:17:17.785 INFO [http-nio-8181-exec-5] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+26-Aug-2020 00:18:37.536 INFO [http-nio-8181-exec-9] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+26-Aug-2020 00:18:38.285 INFO [http-nio-8181-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+26-Aug-2020 00:18:38.450 INFO [http-nio-8181-exec-3] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+26-Aug-2020 00:18:38.601 INFO [http-nio-8181-exec-5] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+26-Aug-2020 00:18:38.771 INFO [http-nio-8181-exec-7] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+26-Aug-2020 00:18:38.934 INFO [http-nio-8181-exec-9] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+26-Aug-2020 00:18:39.090 INFO [http-nio-8181-exec-1] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
