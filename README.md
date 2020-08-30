@@ -18,3 +18,6 @@ Please refer Section#3 Context of Proof Of Context for more details
 - Java v8
 - Ubuntu/Linus/Windows
 - Maven
+
+## Refer KIE_On_Tomcat_Install_and_Config_Guide.pdf
+for Full installation and configuration details
