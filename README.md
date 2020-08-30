@@ -10,3 +10,11 @@ below concept.
 - Call Authored Rules from a Sample Springboot and retrieve the Rule Results using REST API
 
 Please refer Section#3 Context of Proof Of Context for more details
+
+## Environment Details
+- KIE Drools Workbench 7.11.0_Final
+- KIE Server 7.11.0_Final
+- Tomcat v8 or v9
+- Java v8
+- Ubuntu/Linus/Windows
+- Maven
